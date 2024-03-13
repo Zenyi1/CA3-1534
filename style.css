@@ -4,11 +4,12 @@
   }
 
 .purp{
-    background-color: #C42021;
+    background-color: #606c38;
 }
 
 body{
-    background-color: #F3FFB9;
+    background: rgb(96,108,56);
+    background: linear-gradient(0deg, rgba(96,108,56,1) 0%, rgba(254,250,224,1) 50%, rgba(188,108,37,1) 100%);
 }
 
 
