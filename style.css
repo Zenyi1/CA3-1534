@@ -4,13 +4,15 @@
   }
 
 .purp{
-    background-color: #606c38;
+    background-color: #ccd5ae;
 }
 
 
 .city-info {
     margin-top: 30px;
     padding: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
   .city-info p {
@@ -22,10 +24,22 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+
 }
 
 .city-info h2 {
-  color: aliceblue;
+  color: #929b77;
+  font-weight: bolder;
+}
+
+.food{
+  display: flex;
+  justify-content: space-around;
+}
+
+.food img{
+  width: 30%;
+  height: 30%;
 }
 
 
@@ -33,6 +47,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgb(96,108,56);
-    background: linear-gradient(0deg, rgba(96,108,56,1) 0%, rgba(254,250,224,1) 50%, rgba(188,108,37,1) 100%);
+    background: rgb(212,163,115);
+    background: linear-gradient(0deg, rgba(212,163,115,1) 0%, rgba(254,250,224,1) 54%, rgba(204,213,174,1) 100%);
 }
