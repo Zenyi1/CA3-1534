@@ -6,10 +6,24 @@
   <title>Hermosillo</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .wrapper {
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .cactusLARGE {
+      position: absolute;
+      bottom: 0;
+      left: 0; /* Adjust as needed */
+      width: 200px; /* Adjust width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="purp navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="#">Hermosillo, Sonora</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -28,6 +42,49 @@
     </ul>
   </div>
 </nav>
+
+<div class="wrapper">
+  <div class="content">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Visit Hermosillo, Sonora</h2>
+          <p>Hermosillo is a beautiful city located in the Sonoran Desert of Mexico. Here are some experiences you shouldn't miss:</p>
+          <ul>
+            <li>Exploring the majestic Cerro de la Campana</li>
+            <li>Visiting the historic Palacio de Gobierno</li>
+            <li>Indulging in authentic Sonoran cuisine</li>
+            <li>Strolling through the picturesque Plaza Zaragoza</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <div class="card">
+            <img src="./assets/campana.jpg" class="card-img-top" alt="famous hike in hermosillo">
+            <div class="card-body">
+              <h5 class="card-title">Cerro de la Campana</h5>
+              <p class="card-text">Enjoy breathtaking views of Hermosillo from the top of Cerro de la Campana.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <img src="./assets/ruina.jpeg" class="card-img-top" alt="Park with food and old buildings">
+            <div class="card-body">
+              <h5 class="card-title">Palacio de Gobierno</h5>
+              <p class="card-text">Discover the rich history of Hermosillo at the Palacio de Gobierno.</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <img src="./assets/Zaragoza.jpg" class="card-img-top" alt="Historical city centre">
+            <div class="card-body">
+              <h5 class="card-title">Plaza Zaragoza</h5>
+              <p class="card-text">Take a leisurely walk and soak in the charm of Plaza Zaragoza.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="cactusLARGE" src="assets/largeCactus.png" alt="big cartoon cactus">
+  </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
