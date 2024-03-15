@@ -32,6 +32,12 @@
   font-weight: bolder;
 }
 
+.map{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+}
+
 .food{
   display: flex;
   justify-content: space-around;
