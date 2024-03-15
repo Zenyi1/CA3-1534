@@ -10,6 +10,7 @@
 
 .city-info {
     margin-top: 30px;
+    padding: 1%;
 }
 
   .city-info p {
@@ -21,6 +22,10 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+.city-info h2 {
+  color: aliceblue;
 }
 
 
